@@ -1,0 +1,42 @@
+.navbar-brand{
+    background-color: darkcyan;
+   color: white;
+}
+h1{
+    color: darkcyan;
+}
+#p-image{
+    height: 40%; width: 40%;
+}
+#p-image2{
+    height: 100%; width: 100%;
+}
+.elem{
+    margin: 20px;
+    background-color: white;
+    padding: 60px;
+}
+body{
+    background-color: lightgrey;
+  }
+.box1{
+    border-color: darkcyan;
+    border: 2px solid;
+}
+figure figcaption{
+    color: darkcyan;
+    text-align: center;
+    font-size: 36px;
+}
+@media only screen and (max-width : 800px ){
+    [class*= "col-"]{
+        width:100%;
+    }
+    .navbar ul {
+        visibility: hidden;
+      }
+    
+      #nav-select {
+        visibility: visible;
+      }
+}
